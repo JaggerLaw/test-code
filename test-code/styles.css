@@ -46,6 +46,10 @@ body {
   border-radius: 4px;
 }
 
+.border-button:hover {
+  background-color: #c55d13;
+}
+
 .service-section {
   display: grid;
   text-align: center;
@@ -53,13 +57,57 @@ body {
   margin: 0 auto;
 }
 
+.service-section h1 {
+  margin-bottom: 0px;
+}
+
+.service-section p {
+  margin-bottom: 100px;
+}
+
 .card-container {
   display: flex;
-  justify-content: space-between;
-  padding: 2px 16px;
+  justify-content: center;
+  width: auto;
+  gap: 24px;
+  /* padding: 2px 16px; */
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: auto;
+  width: min-content;
+  text-align: left;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card img {
+  display: block;
+  height: auto;
+}
+
+.card-content {
+  padding: 0 20px 20px;
+}
+
+.card-content h2 {
+  color: #333333;
+}
+
+.card-content button {
+  color: #ed7017;
+  background: none;
+  border: none;
+}
+
+.card-content button:hover {
+  color: #c96117;
+}
+.dog-card-dog-walking {
+}
+
+.card-dog-boarding {
+}
+
+.card-dog-sitting {
 }
